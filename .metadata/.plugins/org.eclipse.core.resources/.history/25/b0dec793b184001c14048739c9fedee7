@@ -1,0 +1,14 @@
+package com.test.spring.di02;
+
+public class Ex02 {
+	public static void main(String[] args) {
+	
+		Hong hong = new Hong();
+		hong.run();
+		
+		Pen pen = new Pen();
+		
+		Lee lee = new Lee(pen);
+		lee.run();
+	}
+}

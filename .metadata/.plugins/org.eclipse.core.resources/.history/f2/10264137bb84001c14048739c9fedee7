@@ -1,0 +1,25 @@
+package com.test.spring.di03;
+
+public class Hong {
+
+	private Pen pen;
+	
+	public Hong(Pen pen) {
+		this.pen = pen;
+	}
+	
+	public Hong() {
+		this.pen = null;
+	}
+	
+	public void setPen(Pen pen) {
+		this.pen = pen;
+	}
+	
+	public void run() {
+		
+		pen.draw();
+	}
+
+	
+}

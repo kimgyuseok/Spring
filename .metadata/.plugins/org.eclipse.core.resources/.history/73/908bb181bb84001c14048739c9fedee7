@@ -1,0 +1,27 @@
+package com.test.spring.di03;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Ex03 {
+	public static void main(String[] args) {
+	
+		//Pen pen = new Pen();
+		//Hong hong = new Hong(pen);
+		//hong.run();
+		
+//		ApplicationContext context = new ClassPathXmlApplicationContext("di02.xml");
+//		
+//		Pen pen2 = (Pen)context.getBean("pen");
+//		pen2.draw();
+//		
+//		Hong hong2 = (Hong)context.getBean("hong");
+//		hong2.setPen(pen2);
+//		hong2.run();
+		
+		ApplicationContext context = new ClassPathXmlApplicationContext("di02.xml");
+		
+		Hong hong3 = (Hong)context.getBean("hong");
+		hong3.run();
+	}
+}

@@ -1,0 +1,9 @@
+package com.test.spring.di04;
+
+public class BBB {
+	
+	public void run() {
+		CCC C = new CCC();
+		C.run();
+	}
+}

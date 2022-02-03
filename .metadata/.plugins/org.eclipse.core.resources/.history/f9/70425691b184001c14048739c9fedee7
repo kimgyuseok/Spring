@@ -1,0 +1,17 @@
+package com.test.spring.di02;
+
+public class Lee {
+
+	private Pen pen;
+	
+	public Lee(Pen pen) {
+		this.pen = pen;
+	}
+
+	public void run() {
+		// TODO Auto-generated method stub
+		pen.draw();
+	}
+
+	
+}
