@@ -1,8 +1,0 @@
-package com.test.spring.di01;
-
-public class Hong {
-	public static void main(String[] args) {
-		
-		System.out.println("dd");
-	}
-}

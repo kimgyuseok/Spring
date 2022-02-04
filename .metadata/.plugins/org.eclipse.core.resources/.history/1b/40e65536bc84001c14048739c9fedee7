@@ -1,9 +1,0 @@
-package com.test.spring.di04;
-
-public class BBB {
-	
-	public void run() {
-		DDD d = new DDD();
-		d.run();
-	}
-}
