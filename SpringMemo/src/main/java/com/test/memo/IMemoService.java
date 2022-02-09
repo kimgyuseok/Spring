@@ -8,4 +8,10 @@ public interface IMemoService {
 
 	int add(MemoDTO dto);
 
+	MemoDTO get(String seq);
+
+	int edit(MemoDTO dto);
+
+	int del(String seq);
+
 }
