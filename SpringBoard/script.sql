@@ -39,6 +39,42 @@ commit;
 
 
 
+-- 로그 테이블
+create table tblSpringLog (
+
+    seq number primary key,                     --PK
+    url varchar2(100) not null,                 --페이지
+    id varchar2(30) not null,                   --유저아이디 or 익명(anony)
+    
+
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
